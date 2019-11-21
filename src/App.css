@@ -1,31 +1,14 @@
-.App {
-  min-height: 100vh;
-  background: pink;
+ul{
+    /* position: fixed;
+    width: 100%; */
+    font-size: 20px;
 }
-
-.search-form {
-  min-height: 10vh;
-  display:flex;
-  justify-content: center;
-  align-items: center; 
+body{
+    overscroll-behavior: none;
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    background: ghostwhite;
+    background-image: url('./images/background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-
-.search-bar{
-  width: 50%;
-  border: none;
-  padding: 10px;
-}
-
-.search-button{
-  background: lightcoral;
-  border: none;
-  padding: 10px 20px;
-  color: white;
-}
-
-.recipes{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; 
-}
-

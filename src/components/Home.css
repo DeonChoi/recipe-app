@@ -1,0 +1,30 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45vh;
+    background-image: url('../images/searchBackground.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* max-width: 80%; */
+}
+.form-group {
+    min-width: 25%;
+    /* background-color: rgb(105, 5, 5);
+    border-radius: 10px; */
+}
+label {
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.homeLogo {
+    max-width: 500px;
+    border-radius: 10px;
+}
+.row {
+    margin-bottom: 50px;
+}
+hr {
+    background: black;
+    margin: 70px 0px;
+}
