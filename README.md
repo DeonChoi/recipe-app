@@ -1,6 +1,6 @@
 ## Recipe Application
 
-This is a simple recipe application website built using React and data fetched from https://developer.edamam.com/
+This is a simple recipe application called 'Delish' built using React and styled with Bootstrap. The data is fetched from https://developer.edamam.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
