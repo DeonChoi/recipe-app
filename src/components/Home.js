@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css';
+import '../styles/Home.css';
 import saveMoney from '../images/saveMoney.jpg';
 import stayHealthy from '../images/stayHealthy.jpg';
 import stayConnected from '../images/stayConnected.jpg';

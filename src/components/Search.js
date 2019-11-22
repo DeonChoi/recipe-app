@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import './Search.css';
+import '../styles/Search.css';
 import Recipe from './Recipe';
 
 const Search = () => {
