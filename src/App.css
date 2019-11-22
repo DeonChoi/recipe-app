@@ -1,13 +1,10 @@
-ul{
-    /* position: fixed;
-    width: 100%; */
+nav {
     font-size: 20px;
 }
+
 body{
     overscroll-behavior: none;
     font-family: 'Lexend Deca', sans-serif;
-    /* font-family: 'Raleway', sans-serif; */
-    background: ghostwhite;
     background-image: url('./images/background.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
