@@ -5,7 +5,7 @@ import Search from './components/Search';
 import './App.css';
 
 const App = () => (
-    <Router>
+    <Router basename={'/'}>
         <div>
             <nav className='navbar navbar-light justify-content-between sticky-top bg-white'>
                 <div className='navbar'>

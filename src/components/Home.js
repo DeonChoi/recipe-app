@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 import saveMoney from '../images/saveMoney.jpg';
@@ -6,7 +6,10 @@ import stayHealthy from '../images/stayHealthy.jpg';
 import stayConnected from '../images/stayConnected.jpg';
 
 const Home = () => {
-    
+
+    useEffect( () => {
+        
+    }, []);
 
   return(
 
