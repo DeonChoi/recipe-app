@@ -5,7 +5,7 @@ import Search from './components/Search';
 import './App.css';
 
 const App = () => (
-    <Router basename={'/'}>
+    <Router basename={'/recipe-app'}>
         <div>
             <nav className='navbar navbar-light justify-content-between sticky-top bg-white'>
                 <div className='navbar'>
@@ -19,6 +19,7 @@ const App = () => (
 
             <main>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/recipe-app" component={Home} />
                 <Route path="/recipes" component={Search} />
             </main>
         </div>
